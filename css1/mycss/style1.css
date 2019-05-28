@@ -1,4 +1,6 @@
 
+
+
 .mydiv1
 {
 width:1333px;
@@ -42,6 +44,17 @@ color:white;
 color:white;
 }
 
+
+
+	.icon {
+		text-decoration: none;
+		display: inline-block;
+			font-family: FontAwesome;
+	}
+
+		
+
+			
 #navi_div {
     
     display:inline;      
