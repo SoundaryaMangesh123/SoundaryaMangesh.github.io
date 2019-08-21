@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<div class="container">
+  
+  <form action="/action_page.php">
+    <div class="form-group">
+      <label for="enter name">Enter your name</label>
+      <input type="text"  id="myText" placeholder="Enter email" name="fname" value="">
+    </div>
+    
+    
+    
+  </form>
+</div>
+ 
+
+<button onclick="myFunction()">Press here </button>
+
+<p id="demo"></p>
+<script>
+function myFunction() {
+  var a = document.getElementById("myText").value;
+  
+ 
+  var b=String(a);
+ var x = document.createElement("H1");
+ var hello="welcome "
+
+ var res = hello.concat(b);
+ 
+  var t = document.createTextNode(res);
+  x.appendChild(t);
+  document.body.appendChild(x);
+ 
+
+  
+}
+</script>
+</body>
+</html>
